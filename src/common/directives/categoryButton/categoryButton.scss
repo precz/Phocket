@@ -1,0 +1,16 @@
+.category-button {
+	&.row {
+		background-color: #333333;
+	}
+	p {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.image {
+		width: 100%;
+		height: 100px;
+		display: inline-block;
+		background-position: center;
+		background-size: 100%;
+	}
+}

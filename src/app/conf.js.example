@@ -1,0 +1,7 @@
+'use strict';
+
+angular.module('phocket.conf', [])
+
+.constant('conf', {
+    client_id: ''
+});

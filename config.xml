@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="precz.phocket" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Phocket</name>
+    <description>
+        World of photography in your pocket! Phocket is an EyeEm client for HTML5. EyeEm is a free photo sharing app to discover places & things you love, with every photo you take. https://eyeem.com
+    </description>
+    <author email="pawel.preczynski@gmail.com" href="https://github.com/precz">
+        Paweł Preczyński
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="src/icon/icon-60.png"/>
+
+    <platform name="firefoxos">
+        <icon src="src/icon/icon-128.png" width="128" height="128" />
+        <icon src="src/icon/icon-60.png" width="60" height="60" />
+    </platform>
+
+    <platform name="android">
+        <icon src="src/icon/icon-60.png" density="ldpi"/>
+        <icon src="src/icon/icon-128.png" density="mdpi"/>
+    </platform>
+
+</widget>

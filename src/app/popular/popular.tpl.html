@@ -1,0 +1,24 @@
+<scroll-bar title="title"></scroll-bar>
+
+<navigation-bar
+  title="title"
+  is-working="isWorking"
+  refresh="refresh()"
+></navigation-bar>
+
+
+<div class="container popular">
+  <div class="row">
+    <div class="col col-xs-12 col-sm-6 col-md-4 text-center" ng-repeat="photo in photos">
+      <photo photo="photo"></photo>
+    </div>
+  </div>
+</div>
+
+<no-data ng-if="!photos && !isWorking" refresh="refresh()"></no-data>
+
+<fetch-more-bar
+  elements="photos"
+  fetch-more="more()"
+  is-working="isWorking"
+></fetch-more-bar>

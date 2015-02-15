@@ -1,0 +1,15 @@
+<div class="photo">
+
+	<div class="flex-container">
+		<img class="flex-photo" ng-src="{{resizedUserThumb}}" />
+		<div class="flex-item">
+			<h3>{{photo.user.fullname}}</h3>
+			<span>{{photo.user.nickname}}</span>
+		</div>
+	</div>
+	
+	<img class="img-responsive" ng-src={{resizedImage}}></img>
+	<div class="tags">
+		<tag ng-repeat="tag in tags" tag="tag"></tag>
+	</div>
+</div>

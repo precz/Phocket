@@ -1,0 +1,13 @@
+<scroll-bar title="title"></scroll-bar>
+
+<navigation-bar
+	title="title"
+	is-working="isWorking"
+	refresh="refresh()"
+></navigation-bar>
+
+<div class="container home">
+	<category-button photos="popular" ng-if="popular" link="popular" title="'Popular'"></category-button>
+</div>
+
+<no-data ng-if="!popular && !isWorking" refresh="refresh()"></no-data>

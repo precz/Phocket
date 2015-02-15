@@ -1,0 +1,15 @@
+<nav class="navbar navbar-static-top navbar-inverse">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-toggle" ng-click="refresh()">
+				<span class="navbar-right pull-right" ng-class="{'glyphicon gly-spin glyphicon-refresh': isWorking, 'glyphicon glyphicon-refresh': !isWorking}" aria-hidden="true"></span>
+			</a>
+			<a class="navbar-brand" ng-switch="title" ng-click="back()">
+				<span ng-switch-when="Phocket" class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+				<span ng-switch-default class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+				
+			</a>
+			<h4 class="navbar-text">{{title}}</h4>
+		</div>
+	</div>
+</nav>

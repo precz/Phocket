@@ -1,0 +1,9 @@
+<nav ng-if="elements.length" class="navbar navbar-inverse navbar-static-bottom">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-toggle" ng-click="fetchMore()">
+				<span class="navbar-right pull-right" ng-class="{'glyphicon gly-spin glyphicon-refresh': isWorking, 'glyphicon glyphicon-arrow-down': !isWorking}" aria-hidden="true"></span>
+			</a>
+		</div>
+	</div>
+</nav>

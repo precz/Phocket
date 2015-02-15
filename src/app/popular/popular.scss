@@ -1,0 +1,19 @@
+@media (max-width: 480px) {
+	.popular {
+		.col-xs-12 {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.img-responsive {
+			width: 100%;
+		}
+	}	
+}
+
+@media (max-width: 767px) {
+	.popular {
+		.img-responsive {
+			width: 100%;
+		}
+	}
+}
